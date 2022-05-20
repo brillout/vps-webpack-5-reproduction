@@ -15,10 +15,15 @@
     "react-dom": "^18.1.0",
     "react-streaming": "^0.2.13",
     "vite": "^2.9.9",
-    "vite-plugin-ssr": "0.4.0-beta.25"
+    "vite-plugin-ssr": "0.4.0-beta.24"
   },
   "devDependencies": {
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite-plugin-dist-importer": "0.1.8"
+    }
   }
 }
