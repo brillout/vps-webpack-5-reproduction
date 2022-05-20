@@ -6,7 +6,7 @@ specifiers:
   express: ^4.18.1
   react: ^18.1.0
   react-dom: ^18.1.0
-  react-streaming: ^0.2.12
+  react-streaming: ^0.2.13
   vite: ^2.9.9
   vite-plugin-ssr: 0.4.0-beta.24
   webpack: ^5.72.1
@@ -18,7 +18,7 @@ dependencies:
   express: 4.18.1
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
-  react-streaming: 0.2.12_ef5jwxihqo6n7gxfmzogljlgcm
+  react-streaming: 0.2.13_ef5jwxihqo6n7gxfmzogljlgcm
   vite: 2.9.9
   vite-plugin-ssr: 0.4.0-beta.24_vite@2.9.9
 
@@ -297,10 +297,6 @@ packages:
 
   /@brillout/libassert/0.5.5:
     resolution: {integrity: sha512-GohLlIu361SMQZzzcu4izLG7Tafc4L5cYTmYt+Gy5tihQFA8ifY0+bsaaIJQQaPUHLbFU/ygZoMmxTqW7Bukcg==}
-    dev: false
-
-  /@brillout/load-module/0.1.1:
-    resolution: {integrity: sha512-D5pUE6j4K14YGSn/6Nvc6L9IlIBDH6sLaahNPcOTNUx/N4LWBICj6HmRtuKoCW5/5u6GDqL6qEN1LcDUbDEtEA==}
     dev: false
 
   /@discoveryjs/json-ext/0.5.7:
@@ -1758,14 +1754,13 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /react-streaming/0.2.12_ef5jwxihqo6n7gxfmzogljlgcm:
-    resolution: {integrity: sha512-DJZjKF2meIxioSFKUlX5e0gbHjoJzXQB6a+Tnq4wjWmGdsNISb5dgPQzTDxffq43f/VHAZPRhLj5+npGG2QYgg==}
+  /react-streaming/0.2.13_ef5jwxihqo6n7gxfmzogljlgcm:
+    resolution: {integrity: sha512-Algjb3Fk3iynl6kY8YuvDEWBjFgDDIpnxJonB3MCVohDGf86YKHPWaxRg6jBQIXpV0lhB3gRW/+sxDnLsqYQ2w==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
       '@brillout/json-s': 0.4.6
-      '@brillout/load-module': 0.1.1
       debug: 4.3.4
       isbot-fast: 1.2.0
       react: 18.1.0
