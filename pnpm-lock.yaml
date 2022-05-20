@@ -8,7 +8,7 @@ specifiers:
   react-dom: ^18.1.0
   react-streaming: ^0.2.13
   vite: ^2.9.9
-  vite-plugin-ssr: 0.4.0-beta.24
+  vite-plugin-ssr: 0.4.0-beta.25
   webpack: ^5.72.1
   webpack-cli: ^4.9.2
 
@@ -20,7 +20,7 @@ dependencies:
   react-dom: 18.1.0_react@18.1.0
   react-streaming: 0.2.13_ef5jwxihqo6n7gxfmzogljlgcm
   vite: 2.9.9
-  vite-plugin-ssr: 0.4.0-beta.24_vite@2.9.9
+  vite-plugin-ssr: 0.4.0-beta.25_vite@2.9.9
 
 devDependencies:
   webpack: 5.72.1_webpack-cli@4.9.2
@@ -295,8 +295,8 @@ packages:
     resolution: {integrity: sha512-mDgMMNFSKyN9Fy0G4yQTcWwQ1BXUE65D3i3RXPX44xD5AuIU4QQDQBi+DKiEDCS6L6nEa2frC2lCUa/ob700Aw==}
     dev: false
 
-  /@brillout/libassert/0.5.5:
-    resolution: {integrity: sha512-GohLlIu361SMQZzzcu4izLG7Tafc4L5cYTmYt+Gy5tihQFA8ifY0+bsaaIJQQaPUHLbFU/ygZoMmxTqW7Bukcg==}
+  /@brillout/libassert/0.5.8:
+    resolution: {integrity: sha512-u/fu+jTRUdNdbLONGq1plCfh+k2/XjSbGVTfnF3rHnSPZd+ABWp0XinR5ifrFkyGOzMbzv8IiQ44lZ4U6ZGrGA==}
     dev: false
 
   /@discoveryjs/json-ext/0.5.7:
@@ -2100,8 +2100,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite-plugin-dist-importer/0.1.8:
-    resolution: {integrity: sha512-QDUlwEA/ZF24m1KU16F5sFDpiFPQGoOhHHTiALdj/nDZOr84V14+Bvbw3/ITCq3aAq5pvLYNc2OrIKp+o8yp4w==}
+  /vite-plugin-dist-importer/0.1.9:
+    resolution: {integrity: sha512-b6H9/Rdj/TSMtPpBdVLxuDT3rmCVmuim3NdfUX71PS25AZNPL+DyTR1k2hPW+1XdeSt8ajgdG9udpSx1X5vUVg==}
     dev: false
 
   /vite-plugin-glob/0.2.9:
@@ -2114,15 +2114,15 @@ packages:
       ufo: 0.8.4
     dev: false
 
-  /vite-plugin-ssr/0.4.0-beta.24_vite@2.9.9:
-    resolution: {integrity: sha512-0A7hNgWerKUv3+FeZs0165XzQl6fW2qO3LmrtRr5XDdo1y1CYbpRDB6/NPJA8iTyC9up1GE1FLdqAPhs8MmlAw==}
+  /vite-plugin-ssr/0.4.0-beta.25_vite@2.9.9:
+    resolution: {integrity: sha512-ywmwnKySKJAZkn6V1ucnySbS9rGqFn7PzL9kcgnRmJDaisgWH5YadSvKnMXtgS7bOlLKSeJ6DUky4GsIq73aEw==}
     engines: {node: '>=12.19.0'}
     hasBin: true
     peerDependencies:
       vite: '>=2.9.6'
     dependencies:
       '@brillout/json-s': 0.4.6
-      '@brillout/libassert': 0.5.5
+      '@brillout/libassert': 0.5.8
       cac: 6.7.12
       debug: 4.3.4
       es-module-lexer: 0.10.5
@@ -2132,7 +2132,7 @@ packages:
       resolve: 1.22.0
       symlink-dir: 5.0.1
       vite: 2.9.9
-      vite-plugin-dist-importer: 0.1.8
+      vite-plugin-dist-importer: 0.1.9
       vite-plugin-glob: 0.2.9
     transitivePeerDependencies:
       - supports-color
